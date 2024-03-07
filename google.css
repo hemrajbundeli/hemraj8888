@@ -1,0 +1,98 @@
+#input {
+    padding-bottom:10px;
+    padding-top: 10px;
+    border-radius: 12px;
+    font-size: 15px;
+    font-weight: bolder;
+    background-color: rgb(0, 4, 255);
+    color: white;
+}
+
+    .input {
+        padding-bottom: 10px;
+        padding-top: 10px;
+        border-radius: 12px;
+        font-size: 15px;
+        background-color:fffff;
+        border: none;
+        box-shadow: 1px 1px 5px 3px black;
+        
+    }
+    #div1 {
+        left: 33%;
+        top: 40%;
+        transform: translate(-35% -40%);
+        position: absolute;}
+        
+
+    .Youtube {
+            width: 70px;
+            margin-top: 15px;
+            margin-left: 10px;
+            vertical-align: middle;
+            text-decoration: none;
+        
+    }    
+    .div2 {
+        text-decoration: solid; 
+        font-size: 15px;
+        width: 12px; 
+        font-family: sans-serif ;
+        color:red;
+        vertical-align: middle;
+        font-weight: bolder;
+    
+    }
+    .img {
+        vertical-align: middle;
+        left: 43%;
+        top: 46.5%;
+        transform: translate(-35% -40%);
+        position: absolute;
+        width: 58px;
+        border-radius: 50%;
+    }
+        .a {
+        vertical-align: middle;
+        left: 47%;
+        top: 48%;
+        transform: translate(-35% -40%);
+        position: absolute;
+        width: 50px;
+        border-radius: 50%;
+        text-decoration: solid;
+        font-weight: bolder;
+    }
+.whatsapp {
+    vertical-align: middle;
+        left: 52%;
+        top: 46.50%;
+        transform: translate(-52% -46%);
+        position: absolute;
+        width: 52px;
+        text-decoration: solid;
+        font-weight: bolder;
+    }
+.a1 {
+    vertical-align: middle;
+        left: 55.50%;
+        top: 48%;
+        transform: translate(-35% -40%);
+        position: absolute;
+        width: 50px;
+        border-radius: 50%;
+        text-decoration: solid;
+        font-weight: bolder;
+        color: rgb(255, 0, 0);
+    }
+        
+    .Mozilla {
+        left: 37.50%;
+        top: 15%;
+        position: absolute;
+        width: 20%;
+    }
+    body {
+        background-image: url(background.jpg);
+        
+    }
