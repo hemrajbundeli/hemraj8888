@@ -1,0 +1,193 @@
+.navbar {
+    display: inline-block;
+
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 40px;
+    line-height: 40px;
+    font-size: 15px;
+    background-color: black;
+}
+.logo {
+    width: 82%;
+}
+li {
+    float: left;
+    color: white;
+    border-left: 5px solid rgb(255, 255, 255);
+}
+.link {
+    display: flex;
+    text-decoration: none;
+    padding:0 208px;
+    color: white;
+    font-weight: bold;
+       
+}
+.link:hover {
+    background-color: #156ee2;
+}
+.photo {
+    border-radius: 25px;
+    width: 47%;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+.maindiv{
+    width: 45%;
+    height: 550px;
+    background-image: url('photo.jpeg');
+    background-size: 100% 100%;
+    position: absolute;
+    box-shadow: 1px 2px 10px 5px;
+    top: 71%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    animation: slider 10s infinite linear;
+    border-radius: 25px;
+} 
+@keyframes slider{
+    0%{ background-image: url(photo.jpeg);}
+    30%{background-image: url(mainphoto.jpeg);}
+    60%{background-image: url(dansh.jpeg);}
+    90%{background-image: url(speech.jpeg);}
+}
+.result {
+    margin-left: 52%;
+    margin-top: 2%;
+    border: 3px solid black;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 1px 8px 10px 5px black;
+}
+.scollar {
+    margin-top: 2%;
+    margin-left: 35px;
+    border: 3px solid black;
+    width: 250px;
+    border-radius: 10px;
+    height: 250px;
+    box-shadow: 1px 8px 10px 5px black;
+}
+.program {
+    margin-top: 2%;
+    margin-left: 35px;
+    border: 3px solid black;
+    width: 250px;
+    border-radius: 10px;
+    height: 250px;
+    box-shadow: 1px 8px 10px 5px black;
+}
+.admit-card {
+    margin-left: 52%;
+    margin-top: 2%;
+    border: 3px solid black;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 1px 8px 10px 5px black;
+}
+.sylle {
+    margin-top: 2%;
+    margin-left: 35px;
+    border: 3px solid black;
+    width: 250px;
+    border-radius: 10px;
+    height: 250px;
+    box-shadow: 1px 8px 10px 5px black;
+}
+.fee {
+    margin-top: 2%;
+    margin-left: 35px;
+    border: 3px solid black;
+    width: 250px;
+    border-radius: 10px;
+    height: 250px;
+    box-shadow: 1px 8px 10px 5px black;
+}
+.wrap {
+    left: 87%;
+    top: 10%;
+    transform: translate(-80% -30%);
+    position: absolute;
+}
+.menu1 {
+    width: 75px;
+    height: 13px;
+    background: #000;
+    margin: 6px 0;
+    
+}
+.input {
+padding-bottom: 5px;
+padding-top: 5px;
+border-radius: 10px;
+}
+#div2 {
+    left: 82%;
+    top: 22%;
+    transform: translate(-80% -30%);
+    position: absolute;
+    
+}
+#input {
+    padding-bottom:5px;
+    padding-top: 5px;
+    border-radius: 10px;
+}
+ body {
+    background-image: url(background.jpg);
+ }
+.name {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 30px;
+
+}
+.s{
+   margin-left: 35px;
+   width: 15%;
+   margin-top: 15px;
+   border-radius: 5px;
+}
+.p   {
+    width: 15%;
+    border-radius: 5px;
+}
+.o {
+    width: 15%;
+    border-radius: 5px;
+}
+.y{
+    margin-left: 35px;
+    width: 15%;
+    border-radius: 5px;
+}
+.t{
+    width: 15%;
+    border-radius: 5px;
+}
+.r{
+    width: 15%;
+    border-radius: 5px;
+}
+.web {
+    width: 48%;
+    height: 420px;
+    background-image: url('footar.jpg');
+    background-size: 100% 100%;
+    position: absolute;
+    top: 117.56%;
+    left: 49%;
+}
+.kul {
+    width: 90%;
+    height: 600px;
+    background-image: url('kul.png');
+    background-size: 100% 100%;
+    position: absolute;
+    top: 165%;
+    left: 5%;
+}
